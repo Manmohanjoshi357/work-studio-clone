@@ -69,6 +69,8 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* background-color: red; */
+    cursor: pointer;
 }
 
 #page1 #nav svg{
@@ -78,11 +80,12 @@ html,body{
    
 }
 #page1 #nav #one{
-    opacity: 100;
+    opacity: 0;
     
 }
 #page1 #nav #two{
-    opacity: none;
+    opacity: 1;
+    cursor: pointer;
     
 }
 #page1 #nav #innernav{
